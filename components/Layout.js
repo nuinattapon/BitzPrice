@@ -10,20 +10,13 @@ export default props => (
       />
 
       <title>{props.title}</title>
-
       <link
         rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossOrigin="anonymous"
       />
-
-      <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossOrigin="anonymous"
-      />
+      <link href="/static/index.css" rel="stylesheet" />
     </Head>
     <Navbar />
     <div className="container-fluid">{props.children}</div>
