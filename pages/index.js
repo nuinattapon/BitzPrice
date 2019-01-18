@@ -1,6 +1,8 @@
 import axios from "axios"
+
 import Layout from "../components/Layout"
 import Prices from "../components/Prices"
+
 const Index = props => (
   <Layout title="BitzPrice">
     <div className="container">
