@@ -2,7 +2,7 @@ import axios from "axios"
 import Layout from "../components/Layout"
 import Prices from "../components/Prices"
 const Index = props => (
-  <Layout title="BitzPrice App">
+  <Layout title="BitzPrice">
     <div className="container">
       <h1>Welcome to BitzPrice</h1>
       <p>Check current Bitcoin rate</p>

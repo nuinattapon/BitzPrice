@@ -16,7 +16,7 @@ export default props => (
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossOrigin="anonymous"
       />
-      <link href="/static/index.css" rel="stylesheet" />
+      {/* <link href="/static/index.css" rel="stylesheet" /> */}
     </Head>
     <Navbar />
     <div className="container-fluid">{props.children}</div>
