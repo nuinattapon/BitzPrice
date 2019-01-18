@@ -1,10 +1,10 @@
 // This is the Link API
 import Link from "next/link"
-import { FaBitcoin, FaHome, FaInfo } from "react-icons/fa"
+import { FaBitcoin, FaHome, FaInfoCircle } from "react-icons/fa"
 
 export default () => {
   return (
-    <nav className="navbar navbar-expand navbar-dark bg-warning mb-4">
+    <nav className="navbar navbar-expand navbar-dark bg-primary mb-4">
       <div className="container">
         <a className="navbar-brand" href="#">
           <FaBitcoin className="mr-1" />
@@ -23,7 +23,7 @@ export default () => {
             <li className="nav-item">
               <Link href="/about">
                 <a className="nav-link">
-                  <FaInfo className="mr-1" />
+                  <FaInfoCircle className="mr-1" />
                   About
                 </a>
               </Link>

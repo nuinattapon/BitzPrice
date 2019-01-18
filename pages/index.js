@@ -16,7 +16,7 @@ Index.getInitialProps = async () => {
     "https://api.coindesk.com/v1/bpi/currentprice.json"
   )
 
-  let { data, status, statusText } = await response
+  let { data, status, statusText } = response
 
   return {
     bpi: data.bpi
