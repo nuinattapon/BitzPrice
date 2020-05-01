@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -13,9 +15,11 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-icons": "^3.3.0",
-    "reactstrap": "^7.0.2"
+    "reactstrap": "^7.0.2",
+    "snyk": "^1.316.1"
   },
   "license": "ISC",
   "keywords": [],
-  "description": ""
+  "description": "",
+  "snyk": true
 }
