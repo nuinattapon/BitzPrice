@@ -1,4 +1,5 @@
 import axios from "axios"
+import React from "react"
 
 export default class extends React.Component {
   state = {
@@ -18,7 +19,7 @@ export default class extends React.Component {
   }
 
   handleSubmit = event => {
-    // e.preventDefault()
+    event.preventDefault()
     console.log("Submitted!", this.state)
     //   try {
     //     const res = await axios.post("http://localhost:3000/test", this.state)
