@@ -14,26 +14,26 @@ export default () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link href="/">
-                <a className="nav-link">
+                <div className="nav-link">
                   <FaHome className="mr-1 mb-1" />
                   Home
-                </a>
+                </div>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/about">
-                <a className="nav-link">
+                <div className="nav-link">
                   <FaInfoCircle className="mr-1 mb-1" />
                   About
-                </a>
+                </div>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/input_form">
-                <a className="nav-link">
+                <div className="nav-link">
                   <FaKeyboard className="mr-1 mb-1" />
                   Form
-                </a>
+                </div>
               </Link>
             </li>
           </ul>
